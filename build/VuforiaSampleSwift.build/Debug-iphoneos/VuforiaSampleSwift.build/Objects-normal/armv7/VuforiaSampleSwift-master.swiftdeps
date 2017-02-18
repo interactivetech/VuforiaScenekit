@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "44f03f7752f6447cdd9142e788a57eb5"
+build_time: [540756439, 488264000]
+inputs:
+  "/Users/andrewmendez1/Documents/iOS/MixedReality/VuforiaScenekit/VuforiaSampleSwift/ViewController.swift": [540756425, 0]
+  "/Users/andrewmendez1/Documents/iOS/MixedReality/VuforiaScenekit/VuforiaSampleSwift/AppDelegate.swift": [540756419, 0]
