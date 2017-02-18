@@ -1,19 +1,20 @@
 # VuforiaSampleSwift
 
 Vuforia sample code with SceneKit using Swift.
+Me adding some fixed to get it to run nice on an iPhone 6+
 
 ## Requirement
 
 * Xcode 8
-* iOS 9.3
-* Vuforia SDK for iOS v6.0.112
+* iOS 9.3+
+* Vuforia SDK for iOS v6.2.6
 
 ## Setup
 
 * Download Vuforia SDK for iOS.  
   [Vuforia SDK](https://developer.vuforia.com/downloads/sdk)
 * Put the SDK on your path as like bellow:  
-  `VuforiaSampleSwift/VuforiaSampleSwift/vuforia-sdk-ios-6-0-112`
+  `VuforiaSampleSwift/VuforiaSampleSwift/vuforia-sdk-ios-6-2-6`
 * Download Vuforiat Sample Targets.  
   [Vuforiat Sample](https://developer.vuforia.com/downloads/samples)
 * Put your targets on your path as like bellow:  
@@ -52,8 +53,7 @@ do {
 
 ## ScreenShot
 
-![screenshot](https://github.com/yshrkt/VuforiaSampleSwift/blob/master/screenshot.jpg)
-
+![img_2150](https://cloud.githubusercontent.com/assets/5833510/23090197/d0469380-f565-11e6-8fa0-dc2de94eed8c.PNG)
 ## Thanks
 
 I am referring to the following page.
