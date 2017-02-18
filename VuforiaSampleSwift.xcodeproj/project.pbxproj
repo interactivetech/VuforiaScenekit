@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2A48E5051E57DB7F005DFB5B /* VuforiaAssets in Resources */ = {isa = PBXBuildFile; fileRef = 2A48E5041E57DB7F005DFB5B /* VuforiaAssets */; };
 		2A48E5091E57DB9B005DFB5B /* vuforia-sdk-ios-6-2-6 in Resources */ = {isa = PBXBuildFile; fileRef = 2A48E5081E57DB9B005DFB5B /* vuforia-sdk-ios-6-2-6 */; };
-		2A48E50B1E57DC38005DFB5B /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A48E50A1E57DC38005DFB5B /* libVuforia.a */; };
 		926096D41D4163B600510C24 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926096D31D4163B600510C24 /* SpriteKit.framework */; };
 		927B76D71D27FDC600C4F5CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927B76D41D27FDC600C4F5CC /* AVFoundation.framework */; };
 		927B76D81D27FDC600C4F5CC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927B76D51D27FDC600C4F5CC /* CoreMotion.framework */; };
@@ -34,7 +33,6 @@
 /* Begin PBXFileReference section */
 		2A48E5041E57DB7F005DFB5B /* VuforiaAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VuforiaAssets; sourceTree = "<group>"; };
 		2A48E5081E57DB9B005DFB5B /* vuforia-sdk-ios-6-2-6 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "vuforia-sdk-ios-6-2-6"; sourceTree = "<group>"; };
-		2A48E50A1E57DC38005DFB5B /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVuforia.a; sourceTree = "<group>"; };
 		926096D31D4163B600510C24 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		927B76D31D27FDC600C4F5CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		927B76D41D27FDC600C4F5CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -74,7 +72,6 @@
 				927B77081D2824AB00C4F5CC /* OpenGLES.framework in Frameworks */,
 				927B76DE1D27FE0500C4F5CC /* CoreMedia.framework in Frameworks */,
 				927B76DB1D27FDE500C4F5CC /* SceneKit.framework in Frameworks */,
-				2A48E50B1E57DC38005DFB5B /* libVuforia.a in Frameworks */,
 				927B76DC1D27FDE500C4F5CC /* SystemConfiguration.framework in Frameworks */,
 				927B76D71D27FDC600C4F5CC /* AVFoundation.framework in Frameworks */,
 				927B76D81D27FDC600C4F5CC /* CoreMotion.framework in Frameworks */,
@@ -119,7 +116,6 @@
 		92AA10FC1D27A5EB00E56CBE = {
 			isa = PBXGroup;
 			children = (
-				2A48E50A1E57DC38005DFB5B /* libVuforia.a */,
 				92AA11071D27A5EB00E56CBE /* VuforiaSampleSwift */,
 				92AA11061D27A5EB00E56CBE /* Products */,
 			);
