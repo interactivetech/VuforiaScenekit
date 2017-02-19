@@ -176,7 +176,10 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
         
         let planeNode = SCNNode()
         planeNode.name = "plane"
-        planeNode.geometry = SCNPlane(width: 247.0*view.objectScale, height: 173.0*view.objectScale)
+        
+        // Set size of plane to cover the whole marker; marker dimensions according to marker XML file
+        planeNode.geometry = SCNPlane(width: 0.247/view.objectScale, height: 0.173/view.objectScale)
+        
 //        planeNode.position = SCNVector3Make(0, 0, -15)
         let planeMaterial = SCNMaterial()
         planeMaterial.diffuse.contents = UIColor.green
