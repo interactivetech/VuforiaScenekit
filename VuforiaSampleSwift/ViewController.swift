@@ -158,7 +158,7 @@ extension ViewController: VuforiaEAGLViewSceneSource, VuforiaEAGLViewDelegate {
     fileprivate func createStonesScene(with view: VuforiaEAGLView) -> SCNScene {
         let scene = SCNScene()
         
-        var rootNode = SCNNode();
+//        var rootNode = SCNNode();
         boxMaterial.diffuse.contents = UIColor.lightGray
         
         let lightNode = SCNNode()
